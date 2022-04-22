@@ -208,3 +208,56 @@ a {
   text-align: center;
   margin-top: 26px;
   margin-bottom: 54px; }
+
+@media (max-width: 376px) {
+  .container {
+    width: 354px;
+    max-width: 100%;
+    margin: 0 auto; }
+  h1 {
+    font-size: 1.875rem;
+    margin-top: 34px; }
+  h2 {
+    font-size: 1.625rem; }
+  h3 {
+    font-size: 1.125rem; }
+  .hero {
+    text-align: center; }
+    .hero .container {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      width: 100%; }
+    .hero .mobile-pos {
+      display: inline-block;
+      width: 174.38px;
+      height: 180px;
+      max-width: 100%;
+      height: 100%;
+      margin: 0 auto; }
+    .hero .laptop-pos {
+      display: none; }
+  .recent-posts .sec-uptitle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .recent-posts .vl {
+    display: none; }
+  .recent-posts h2 {
+    font-size: 1.375rem; }
+  .recent-posts .article {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%; }
+  .recent-posts article {
+    margin-top: 17px; }
+  .featured-works article {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%; }
+  .featured-works .db {
+    width: 339px;
+    height: 230px;
+    max-width: 100%;
+    max-height: 100%; }
+  .featured-works .only-laptop {
+    display: none; } }

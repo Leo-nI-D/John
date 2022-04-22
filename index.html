@@ -14,19 +14,19 @@
 
 <body>
     <header class="header">
-                <nav class="menu">
-                    <ul class="menu-list">
-                        <li class="menu-item">
-                            <a href="work.html" class="menu-link">Works</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="blog.html" class="menu-link">Blog</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="work.html" class="menu-link">Works</a>
+                </li>
+                <li class="menu-item">
+                    <a href="blog.html" class="menu-link">Blog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <section class="hero">
@@ -40,7 +40,7 @@
                     </p>
                     <a href="downloads/Beethoven-Moonlight-Sonata.gp">Download Resume</a>
                 </div>
-                <img class="tablet-laptop-pos" src="img/John-face.jpg" alt="John-face">
+                <img class="laptop-pos" src="img/John-face.jpg" alt="John-face">
             </div>
         </section>
         <section class="recent-posts">
@@ -49,7 +49,6 @@
                     <h3 class="rp">Recent posts</h3>
                     <a class="vl" href="#">view all</a>
                 </div>
-                <h3 class="mobile-rp">Recent posts</h3>
                 <div class="article">
                     <article>
                         <h2>Making a design system from<br> scratch</h2>
@@ -58,19 +57,19 @@
                             <span class="empty"></span>
                             <p>Design, Pattern</p>
                         </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia
-                            consequat<br> duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </article>
                     <article>
                         <h2>Creating pixel perfect icons in Figma</h2>
                         <div class="datasource">
                             <time>12 Feb 2020</time>
-                            <span></span>
+                            <span class="empty"></span>
                             <p>Figma, Icon Design</p>
                         </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia
-                            consequat<br> duis enim velit mollit. Exercitation veniam<br> consequat sunt nostrud amet.
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </article>
                 </div>
@@ -80,7 +79,7 @@
             <div class="container">
                 <h3>Featured works</h3>
                 <article>
-                    <img src="img/db.png" alt="Dashboard">
+                    <img src="img/db.png" class="db" alt="Dashboard">
                     <div class="wrapper__text">
                         <h2>Designing Dashboards</h2>
                         <div class="wrapper__time">
@@ -92,32 +91,36 @@
                             amet.</p>
                     </div>
                 </article>
-                <article>
-                    <img src="img/portraits.png" alt="Portraits">
-                    <div class="wrapper__text">
-                        <h2>Vibrant Portraits of 2020</h2>
-                        <div class="wrapper__time">
-                            <span class="year">2018</span>
-                            <p>Illustration</p>
+                <div class="only-laptop">
+                    <article>
+                        <img src="img/portraits.png" alt="Portraits">
+                        <div class="wrapper__text">
+                            <h2>Vibrant Portraits of 2020</h2>
+                            <div class="wrapper__time">
+                                <span class="year">2018</span>
+                                <p>Illustration</p>
+                            </div>
+                            <p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit<br>
+                                officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud
+                                amet.</p>
                         </div>
-                        <p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
-                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud
-                            amet.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/type.png" alt="Malayalam type">
-                    <div class="wrapper__text">
-                        <h2>36 Days of Malayalam type</h2>
-                        <div class="wrapper__time">
-                            <span class="year">2018</span>
-                            <p>Typography</p>
+                    </article>
+                    <article>
+                        <img src="img/type.png" alt="Malayalam type">
+                        <div class="wrapper__text">
+                            <h2>36 Days of Malayalam type</h2>
+                            <div class="wrapper__time">
+                                <span class="year">2018</span>
+                                <p>Typography</p>
+                            </div>
+                            <p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit<br>
+                                officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud
+                                amet.</p>
                         </div>
-                        <p class="p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
-                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br> nostrud
-                            amet.</p>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
