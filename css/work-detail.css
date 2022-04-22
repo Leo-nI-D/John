@@ -22,9 +22,7 @@ h3 {
   font-weight: 700; }
 
 h1 {
-  font-size: 2.75rem;
-  margin-top: 106px;
-  margin-bottom: 55px; }
+  font-size: 2.75rem; }
 
 h2 {
   font-size: 1.875rem; }
@@ -42,14 +40,15 @@ a {
   color: #21243d; }
 
 .container {
-  width: 682px;
+  width: 681px;
   max-width: 100%;
   margin: 0 auto; }
 
 .header {
   font-size: 1.25rem;
   font-weight: 500;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 140px; }
   .header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -63,31 +62,38 @@ a {
     gap: 33px; }
     .header ul a {
       color: #000; }
-    .header ul .red-color {
-      color: #ff6464; }
+  .header .works {
+    color: #ff6464; }
 
-.datasource {
+.year {
+  background: #ff7c7c;
+  border-radius: 16px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 900;
+  font-size: 1.125rem;
+  color: #fff;
+  height: 25px;
+  max-height: 100%;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 26px; }
-  .datasource .empty::after {
-    content: "";
-    display: block;
-    background: #000;
-    width: 1px;
-    height: 21px; }
-  .datasource p {
-    color: #8695a4; }
+  gap: 17px; }
 
-article {
-  margin-bottom: 32px; }
-  article:nth-child(1n) {
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 32px; }
+.mixed-photo {
+  margin-top: 46px;
+  margin-bottom: 54px; }
+
+.car {
+  margin-top: 30px;
+  margin-bottom: 27px; }
 
 .footer .wrapper__img {
   gap: 35px;
@@ -108,14 +114,22 @@ article {
   margin-bottom: 54px; }
 
 @media (max-width: 376px) {
+  .container {
+    width: 339px;
+    max-width: 100%;
+    margin: 0 auto; }
   h1 {
     font-size: 1.875rem; }
   h2 {
     font-size: 1.625rem; }
-  time,
+  h3 {
+    font-size: 1.25rem; }
   p {
     font-size: 1rem; }
-  .container {
+  .mixed-photo,
+  .car,
+  .menu {
     width: 339px;
+    height: 256px;
     max-width: 100%;
-    margin: 0 auto; } }
+    max-height: 100%; } }
