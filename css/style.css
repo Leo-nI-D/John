@@ -1,0 +1,210 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  line-height: 1.5; }
+
+body {
+  font-size: 1rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  color: #21243d;
+  background: #fff; }
+
+h1,
+h2,
+h3 {
+  font-weight: 700; }
+
+h1 {
+  font-size: 2.75rem; }
+
+h2 {
+  font-size: 1.875rem; }
+
+h3 {
+  font-size: 1.625rem; }
+
+ol,
+ul {
+  list-style: none;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #21243d; }
+
+.container {
+  width: 915px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 140px; }
+  .header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    gap: 33px; }
+    .header ul a {
+      color: #000; }
+    .header ul a:nth-last-child() {
+      margin-right: 60px; }
+
+.hero {
+  margin-bottom: 71px; }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .hero .mobile-pos {
+    display: none; }
+  .hero p {
+    margin-top: 40px;
+    margin-bottom: 38px; }
+  .hero a {
+    padding: 9px 21px 9px 20px;
+    background: #ff6464;
+    color: #fff; }
+    .hero a:hover {
+      background: #e04646; }
+
+.recent-posts {
+  padding-top: 7px;
+  padding-bottom: 32px;
+  background: #edf7fa; }
+  .recent-posts h2 {
+    font-size: 1.625rem; }
+  .recent-posts h3 {
+    font-size: 1.625rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400; }
+  .recent-posts .container {
+    margin-top: 78px; }
+  .recent-posts .rp,
+  .recent-posts .vl {
+    font-size: 1.135rem;
+    margin-bottom: 15px; }
+  .recent-posts .sec-uptitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .recent-posts .article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .recent-posts .article article {
+      padding: 24px 21px 7px 23px;
+      background: #fff;
+      -webkit-box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+              box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+      border-radius: 4px;
+      width: 418px;
+      max-width: 100%; }
+  .recent-posts .datasource {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 26px; }
+    .recent-posts .datasource .empty::after {
+      content: "";
+      display: block;
+      background: #000;
+      width: 1px;
+      height: 21px; }
+
+.featured-works {
+  margin-top: 15px;
+  margin-bottom: 83px; }
+  .featured-works h3 {
+    font-size: 1.625rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400; }
+  .featured-works article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 22px;
+    border-bottom: 1px solid #e0e0e0; }
+    .featured-works article img {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      height: 165px;
+      max-height: 100%; }
+    .featured-works article h2 {
+      margin-bottom: 16px; }
+  .featured-works .wrapper__text {
+    margin-left: 18px; }
+  .featured-works .wrapper__time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .featured-works .wrapper__time p {
+      margin-left: 26px;
+      margin-bottom: 17px;
+      color: #8695a4; }
+  .featured-works .year {
+    background: #142850;
+    border-radius: 16px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 900;
+    font-size: 1.125rem;
+    color: #fff;
+    height: 25px;
+    max-height: 100%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.footer .wrapper__img {
+  gap: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 134px; }
+
+.footer p {
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 54px; }
